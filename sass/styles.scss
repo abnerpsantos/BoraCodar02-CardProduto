@@ -34,12 +34,15 @@ body {
 	& img {
 		display: block;
 		max-height: 223px;
-		width: 100%;
 	}
+
 	.toggle-img {
+		display: grid;
+		place-items: center;
+		width: 32px;
 		position: absolute;
-		top: 8px;
-		right: 50px;
+		bottom: calc(100% - 32px);
+		left: calc(100% - 50px);
 		cursor: pointer;
 	}
 }
