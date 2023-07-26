@@ -1,0 +1,6 @@
+@use "reset/reset";
+@use "colors/colors";
+
+body {
+	background-color: colors.$secondary-color;
+}
