@@ -1,0 +1,13 @@
+{
+  "name": "boracodar02",
+  "version": "1.0.0",
+  "description": "Um projeto por semana para você se desenvolver e aprimorar suas habilidades técnicas!",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass sass:css",
+    "sass:watch": "sass --watch sass:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

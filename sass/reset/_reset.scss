@@ -19,6 +19,7 @@ abbr,
 acronym,
 address,
 big,
+button,
 cite,
 code,
 del,
@@ -121,4 +122,10 @@ q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+button {
+	appearance: none;
+	background-color: inherit;
+	border: none;
 }
