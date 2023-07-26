@@ -136,6 +136,10 @@ button {
   border: none;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
   background-color: hsl(257, 75%, 89%);
   min-height: 100vh;
@@ -158,6 +162,8 @@ body {
   position: relative;
 }
 .product-card img {
+  display: block;
+  max-height: 223px;
   width: 100%;
 }
 .product-card .toggle-img {
@@ -169,6 +175,35 @@ body {
 
 .product-info {
   grid-area: "pi";
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: hsl(258, 45%, 19%);
+}
+.product-info .product-title {
+  font-family: "Crimson Pro";
+  font-weight: 600;
+  font-size: 3.2rem;
+}
+.product-info .product-price {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.product-info .product-code {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.product-info .buy-product {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.4rem;
+  width: max-content;
+  padding: 8px 16px;
+  border: 1px solid hsl(258, 45%, 19%);
+  border-radius: 999px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

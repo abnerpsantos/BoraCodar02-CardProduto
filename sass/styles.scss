@@ -1,6 +1,15 @@
 @use "reset/reset";
 @use "colors/colors";
 
+@mixin LatoFont {
+	font-family: "Lato";
+	font-weight: 400;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
 body {
 	background-color: colors.$secondary-color;
 	min-height: 100vh;
@@ -23,6 +32,8 @@ body {
 	position: relative;
 
 	& img {
+		display: block;
+		max-height: 223px;
 		width: 100%;
 	}
 	.toggle-img {
@@ -35,4 +46,31 @@ body {
 
 .product-info {
 	grid-area: "pi";
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	color: colors.$primary-color;
+
+	.product-title {
+		font-family: "Crimson Pro";
+		font-weight: 600;
+		font-size: 3.2rem;
+	}
+	.product-price {
+		@include LatoFont();
+		font-size: 1.6rem;
+	}
+	.product-code {
+		@include LatoFont();
+		font-size: 1.2rem;
+	}
+	.buy-product {
+		@include LatoFont();
+		font-size: 1.4rem;
+		width: max-content;
+		padding: 8px 16px;
+		border: 1px solid colors.$primary-color;
+		border-radius: 999px;
+		cursor: pointer;
+	}
 }

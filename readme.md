@@ -18,7 +18,7 @@ Proposto por: [RocketSeat](https://www.rocketseat.com.br/boracodar)
 ### Tipografia:
 
 - **Fontes:** 
-  - Crimsom Pro
+  - Crimson Pro
   - Lato
 - **Tamanho de fonte e peso**
   - 32 / Semibold
